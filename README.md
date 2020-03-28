@@ -7,7 +7,9 @@ Arama sonuçlarında:
 > **Açık** renkli satırlar **cümle içinde kullanımını**
 ifade etmektedir.
 
-![ui](https://raw.githubusercontent.com/ahmetveburak/treng-dictionary/master/gui/UI.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ahmetveburak/treng-dictionary/master/gui/UI.png">
+</p>
 
 **Her Zaman Üstte** modu Linux sistemlerde pencere menüsünden etkinleştirilerek kullanılabilir. Uygulama içindeki seçenek henüz aktifleştirilmemiştir.
 
