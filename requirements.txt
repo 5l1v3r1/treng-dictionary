@@ -1,0 +1,6 @@
+aiohttp==3.6.1
+asyncio==3.4.3
+beautifulsoup4==4.8.0
+PyQt5==5.14.1
+PyQt5-sip==12.7.1
+requests==2.22.0

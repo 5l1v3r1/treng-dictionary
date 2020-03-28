@@ -1,0 +1,141 @@
+/* colors{
+    color:   #49482C;
+    color:   #757134;
+    color:   #B8B05B;
+    color:   #D5D29F;
+    color:   #E9E8CC;
+} */
+
+QMainWindow{
+    background-color: #49482C;
+}
+
+QWidget{    
+    color:#ffffff;
+    border:0px;
+}     
+
+QFrame{
+    background-color:#B8B05B;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+QLineEdit {
+    border-radius: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    
+    background: #D5D29F;
+    color: black;
+    font-weight: 500;
+    selection-background-color: #5E9B39;
+}  
+
+QPushButton{
+    background-color:#5E9B39;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color:#D5D29F;
+    font-weight: 600;
+}
+
+QPushButton:Hover{
+    background-color:#757134;
+}
+
+QPushButton:pressed{
+    background-color:#B8B05B;
+}
+
+QTabWidget{
+    padding-top:10px;
+    border:#FF8F0F;
+    border:0px;
+    
+}
+
+QTabBar::tab {
+    background: #757134;
+    border: 0px solid #757134;
+    border-bottom-color: #757134; /* same as the pane color */
+    min-width: 100px;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+QTabBar::tab:selected {      
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;                        
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background: #B8B05B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color:#49482C;
+    font-weight: 600;
+    
+}
+
+QTabWidget::pane{
+    background-color:#757134;
+}
+
+QTableWidget{
+    border: 0px;
+    border-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+QTableView{
+    border: 10px;
+    border-radius:10px;
+
+}
+
+QMenu{
+    background: #757134;
+}
+
+QMenu::item {
+    background-color: #757134; 
+    color: #B8B05B;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+QMenu::item:selected {
+    background-color: #B8B05B;
+    color:#49482C;
+    border: 0px;
+     
+}
+
+QMenu::indicator {
+    width: 26px;
+    height: 26px;
+    margin-left: 5px;
+}
+
+QMenuBar{
+    background-color: #757134;  
+    color:#49482C;
+    font-weight: 600;       
+}
+
+QMenuBar::item:selected { /* when selected using mouse or keyboard */
+    background-color: #49482C;
+    color: #B8B05B;
+    
+    border-bottom: 1px;
+    margin-top: 2px;
+}
+
+QScrollBar { 
+    height: 10px; /*  hides scroll bar */
+}
