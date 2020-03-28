@@ -125,7 +125,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Multi Dictionary"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Dictionary"))
         self.pushButton.setText(_translate("MainWindow", "Search"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabTr), _translate("MainWindow", "TURENG"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabCamb), _translate("MainWindow", "Cambridge"))

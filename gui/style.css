@@ -77,8 +77,11 @@ QTabBar::tab:selected, QTabBar::tab:hover {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color:#49482C;
-    font-weight: 600;
-    
+    font-weight: 600;   
+}
+
+QTabBar::tab:!selected {
+    margin-top: 3px; /* make non-selected tabs look smaller */
 }
 
 QTabWidget::pane{
