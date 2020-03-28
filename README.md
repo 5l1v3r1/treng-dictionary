@@ -3,7 +3,7 @@
 Çalışma verimliliğinin arttırılması ve dikkat dağınıklığının engellenmesi için geliştirilmiştir.
 
 Arama sonuçlarında:
-> **Koyu** renkli satırlar **kelime anlamını**
+> **Koyu** renkli satırlar **kelime anlamını** <br>
 > **Açık** renkli satırlar **cümle içinde kullanımını**
 ifade etmektedir.
 
